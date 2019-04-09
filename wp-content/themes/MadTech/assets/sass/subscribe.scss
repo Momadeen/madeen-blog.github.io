@@ -1,0 +1,73 @@
+#subscribe {
+    height: 250px;
+    width: 100%;
+    position: relative;
+
+    .sub-background {
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+
+        .overlay-sub {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: #444aad; /* Old browsers */
+            background: -moz-linear-gradient(left, #444aad 1%, #f61e22 98%); /* FF3.6-15 */
+            background: -webkit-linear-gradient(left, #444aad 1%,#f61e22 98%); /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(to right, #444aad 1%,#f61e22 98%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#444aad', endColorstr='#f61e22',GradientType=1 ); /* IE6-9 */
+            opacity: .5;
+        }
+        
+       img {
+           width: 100%;
+       }
+    }
+    
+    h4 {
+        position: absolute;
+        top: 14%;
+        letter-spacing: 1px;
+        left: 34%;
+        font-weight: 500;
+        color: #FFF;
+        font-weight: 400!important;
+        text-transform: uppercase;
+    }
+    .subscribe-form {
+        position: absolute;
+        top: 50%;
+        left: 30%;
+        width: 100%;
+        
+
+        input[name="email"] {
+                width: 30%;
+                height: 35px;
+                padding: 10px;
+                border-radius: 5px;
+                border: none;
+                margin-right: 10px;
+              &::placeholder {
+                opacity: .5;
+              }  
+        }
+        input[type="submit"] {
+            padding: 6px 44px;
+            background:
+            radial-gradient(circle, transparent 20%, slategray 20%, slategray 80%, transparent 80%, transparent),
+            radial-gradient(circle, transparent 20%, slategray 20%, slategray 80%, transparent 80%, transparent) 50px 50px,
+            linear-gradient(#A8B1BB 8px, transparent 8px) 0 -4px,
+            linear-gradient(90deg, #A8B1BB 8px, transparent 8px) -4px 0;
+            background-color: slategray;
+            background-size:100px 100px, 100px 100px, 50px 50px, 50px 50px;
+            color: #FFF;
+            border: none;
+            border-radius: 7px;
+        }
+    }
+}

@@ -1,0 +1,42 @@
+body.category {
+    .category-post {
+        position: relative;
+        width: 100%;
+        padding: 40px 0;
+        border-bottom: 2px dotted #CCC;
+        .category-post-image {
+            width: 50%;
+            display: inline-block;
+            overflow: hidden;
+            border-radius: 10px;
+
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+        a {
+            color: #000;
+        
+        h3 {
+            position: absolute;
+            top: 12%;
+            left: 53%;
+            width: 50%;
+           
+        }}
+        .category-post-excerpt {
+            position: absolute;
+            top: 55%;
+            font-size: 20px;
+            color: rgb(77, 77, 77);
+            left: 53%;
+        }
+        .category-post-meta {
+            position: absolute;
+            top: 40%;
+            left: 53%;
+            font-size: 14px;
+        }
+    }
+}

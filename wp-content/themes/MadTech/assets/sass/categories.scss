@@ -1,0 +1,59 @@
+#categories {
+    .categories {
+        h1 {
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-weight: 600!important;
+            margin-bottom: 30px!important;
+        }
+        i {
+            color: #ff954a;
+        }
+        .col-md-3 {
+            padding: 0px 3px;
+            margin: 10px 0;
+        }
+        .col-md-3:last-of-type {
+            max-width: 100%!important;
+            flex: 0 0 100%;
+            .category-box {
+                height: 150px;
+                img {
+                    height: 500px;
+                }
+            }
+        }
+        .category-box {
+            height: 100%;
+            width: 100%;
+
+            img {
+                height: 100%;
+                width: 100%;
+                border-radius: 16px;
+                -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+                filter: grayscale(100%);
+                transition: 0.5s ease-in-out;
+                &:hover {
+                    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+                filter: grayscale(0%);
+                }
+                }
+                .category-name {
+                    height: 45px;
+                    width: 152px;
+                    transform: skew(14deg);
+                    background-color: #FFF;
+                    position: absolute;
+                    top: 44%;
+                    left: 28%;
+                    opacity: 0.8;
+                    h3 {
+                        text-transform: uppercase;
+
+                    }
+                }
+            
+        }
+    }
+}
